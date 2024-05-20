@@ -902,7 +902,9 @@ section {
 }
 
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  
+  
+  margin-bottom: 20px;
 }
 
 .portfolio .portfolio-item .portfolio-img {
@@ -910,6 +912,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-img img {
+  
   transition: all 0.8s ease-in-out;
 }
 
@@ -974,7 +977,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 50%;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
