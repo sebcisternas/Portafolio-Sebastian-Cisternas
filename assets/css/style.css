@@ -317,7 +317,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right;
+  background: url("../img/back.jpg") top right;
   background-size: cover;
   position: relative;
 }
@@ -776,7 +776,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/backtesti.avif") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1301,7 +1301,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/footer.avif") top center no-repeat;
   background-size: cover;
   color: #fff;
   font-size: 14px;
@@ -1372,4 +1372,20 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.small-image {
+  max-width: 60px;  /* Ajusta el tamaño según tus necesidades */
+  object-fit: contain; /* Asegura que la imagen mantenga su proporción dentro del contenedor */
+  
+}
+
+.medium-image{
+  max-width: 100px;  /* Ajusta el tamaño según tus necesidades */
+  object-fit: contain;
+}
+
+.small2-image{
+  max-width: 40px;
+  object-fit: contain;
 }
